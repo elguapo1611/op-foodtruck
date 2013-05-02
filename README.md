@@ -1,6 +1,6 @@
 # Op::Foodtruck
 
-TODO: Write a gem description
+A simple gem for connecting to an api.
 
 ## Installation
 
