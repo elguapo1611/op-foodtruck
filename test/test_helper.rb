@@ -1,3 +1,3 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require File.expand_path('../../lib/op/foodtruck.rb', __FILE__)
+require File.expand_path('../../lib/op-foodtruck.rb', __FILE__)
