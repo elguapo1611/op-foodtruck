@@ -4,10 +4,12 @@ require 'faraday'
 Bundler.require
 
 puts "required"
-module OP::Foodtruck
-  class Foodtruck
-    def self.hello
-      puts "world"
+module Op
+  module Foodtruck
+    class Client
+      def self.hello
+        puts "world"
+      end
     end
   end
 end
