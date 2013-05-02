@@ -1,6 +1,10 @@
-# require_relative "foodtruck/version"
+require 'bundler'
+require 'faraday'
+# require_relative 'monocle/deal'
+Bundler.require
+
 puts "required"
-module Op
+module OP
   class Foodtruck
     def self.hello
       puts "world"
